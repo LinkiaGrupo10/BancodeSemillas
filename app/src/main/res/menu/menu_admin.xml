@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/InicioAdmin"
+            android:title="@string/InicioAdmin"
+            android:icon="@drawable/ic_action_name"/>
+
+        <item
+            android:id="@+id/PerfilAdmin"
+            android:title="@string/PerfilAdmin"
+            android:icon="@drawable/ic_action_name"/>
+
+        <item
+            android:id="@+id/RegistrarGuardian"
+            android:title="@string/RegistrarGuardian"
+            android:icon="@drawable/ic_action_name"/>
+
+        <item
+            android:id="@+id/RegistrarSemilla"
+            android:title="@string/RegistrarSemilla"
+            android:icon="@drawable/ic_action_name"/>
+
+        <item
+            android:id="@+id/ListarGuardianes"
+            android:title="@string/ListarGuardianes"
+            android:icon="@drawable/ic_action_name"/>
+
+        <item
+            android:id="@+id/ListarSemillas"
+            android:title="@string/ListarSemillas"
+            android:icon="@drawable/ic_action_name"/>
+
+        <item
+            android:id="@+id/Salir"
+            android:title="@string/Salir"
+            android:icon="@drawable/ic_action_name"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_hoja"
+    tools:context=".FragmentosAdministrador.InicioAdmin">
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+
+
+    <!--1 - 2-->
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="20dp">
+
+    <!--OPCION 1-->
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/borde_solido">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:src="@drawable/agregar" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/formabotones"
+            android:layout_marginStart="32dp"
+            android:text="Semillas"
+            android:id="@+id/Btn_Semillas"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:textStyle="bold"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!--OPCION 2-->
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/borde_solido">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:src="@drawable/lista"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/formabotones"
+            android:layout_marginStart="32dp"
+            android:text="Guardianes"
+            android:id="@+id/Btn_Guardianes"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:textStyle="bold"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!--3 - 4-->
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="20dp">
+
+    <!--OPCION 3-->
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/borde_solido">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:src="@drawable/archivados"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/formabotones"
+            android:layout_marginStart="32dp"
+            android:text="Guardas"
+            android:id="@+id/Btn_Guardas"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:textStyle="bold"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!--OPCION 4-->
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/borde_solido">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:src="@drawable/perfil"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/formabotones"
+            android:layout_marginStart="32dp"
+            android:text="Mis Repartos"
+            android:id="@+id/Btn_Repartos"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:textStyle="bold"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!--5 -6-->
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="20dp">
+
+    <!--OPCION 5-->
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/borde_solido">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:src="@drawable/acerca_de" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/formabotones"
+        android:layout_marginStart="32dp"
+        android:text="Acerca De"
+        android:id="@+id/AcercaDe"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:textStyle="bold"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!--OPCION 6-->
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/borde_solido">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:src="@drawable/salir"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/formabotones"
+        android:layout_marginStart="32dp"
+        android:text="Cerrar Sesion"
+        android:id="@+id/CerrarSesion"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:textStyle="bold"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

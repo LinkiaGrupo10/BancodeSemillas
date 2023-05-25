@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccffcc"
+    tools:context=".Admin.GuardianesAdmin.InfoGuardian">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:text="Información"
+            android:gravity="center"
+            android:background="#E6F0FA"
+            android:textStyle="bold"/>
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ImagenGuardianInfo"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/image_ico"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="@string/Nombre"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_nombres"
+                android:id="@+id/tvNombre"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="@string/Correo"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_nombres"
+                android:id="@+id/tvCorreo"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="@string/Direccion"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_nombres"
+                android:id="@+id/tvDireccion"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="number"
+                android:hint="@string/Telefono"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_nombres"
+                android:id="@+id/tvTelefono"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="@string/Asamblea"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_nombres"
+                android:id="@+id/tvAsamblea"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="number"
+                android:hint="@string/Municipio"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_nombres"
+                android:id="@+id/tvMunicipio"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/GuardasAbiertas"
+            android:background="@drawable/formabotones"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:text="Guardas Abiertas"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginStart="95dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/HistorialGuardas"
+            android:background="@drawable/formabotones"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:text="Historial Guardas"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginStart="95dp"
+            android:textStyle="bold"/>
+
+        <Button
+
+            android:id="@+id/Volver"
+            android:background="@drawable/formabotones"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:text="Volver"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginStart="95dp"
+            android:textStyle="bold"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
+

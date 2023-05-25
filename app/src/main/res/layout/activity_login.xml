@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nubes_fondo"
+    tools:context=".Login">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Iniciar Sesion"
+            android:textSize="30sp"
+            android:background="#E6F0FA"
+            android:textStyle="bold"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_fileName="iniciar_sesion.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:hint="Correo"
+                android:drawableStart="@drawable/icono_correo"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:id="@+id/CorreoLogin"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:hint="Password"
+                android:drawableStart="@drawable/icono_password"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:id="@+id/PassLogin"
+                android:contentDescription="Password"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:background="@drawable/formabotones"
+            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:text="Entrar"
+            android:layout_marginTop="25dp"
+            android:id="@+id/Btn_Logeo"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

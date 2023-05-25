@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nubes_fondo"
+    tools:context=".Admin.GuardasAdmin.DetallesHistorial">
+
+
+<TextView
+    android:id="@+id/text_Semilla"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="52dp"
+    android:text="Nombre Semilla"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="#E6F0FA"
+    android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/textGuardian"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:text="NombreGuardian"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/text_Semilla"
+    android:background="#E6F0FA"
+    android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/TextObservaciones"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:text="Obsevaciones"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textGuardian"
+    android:background="#E6F0FA"
+    android:textStyle="bold"/>
+
+<Button
+    android:id="@+id/eliminar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="44dp"
+    android:layout_marginEnd="115dp"
+    android:layout_marginStart="115dp"
+    android:textSize="16dp"
+    android:background="@drawable/formabotones"
+    android:text="Eliminar"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/TextObservaciones"
+    android:textStyle="bold"/>
+
+
+
+<Button
+    android:id="@+id/inicio"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="44dp"
+    android:layout_marginEnd="115dp"
+    android:layout_marginStart="115dp"
+    android:textSize="16dp"
+    android:background="@drawable/formabotones"
+    android:text="Inicio"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/eliminar"
+    android:textStyle="bold"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

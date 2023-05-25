@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "177828178454",
+    "firebase_url": "https://bancodesemillas-51a1b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bancodesemillas-51a1b",
+    "storage_bucket": "bancodesemillas-51a1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177828178454:android:86bb6791bc68ebb0e7a337",
+        "android_client_info": {
+          "package_name": "com.example.banco_semillas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177828178454-3mulkaqp38dbm2vkepv9ev17oasihnp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLDcU5w8cWKCBLwAKjfuBbW0PTThkKQhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177828178454-3mulkaqp38dbm2vkepv9ev17oasihnp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "177828178454-afhnemkhk3j7oc9n6s2n2ntr890nrv80.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bancoSemillas"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177828178454:android:a253bfbb019a7d4ce7a337",
+        "android_client_info": {
+          "package_name": "com.example.bancodesemillas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177828178454-3mulkaqp38dbm2vkepv9ev17oasihnp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLDcU5w8cWKCBLwAKjfuBbW0PTThkKQhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177828178454-3mulkaqp38dbm2vkepv9ev17oasihnp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "177828178454-afhnemkhk3j7oc9n6s2n2ntr890nrv80.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bancoSemillas"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177828178454:android:bba9ec22f8ca9a35e7a337",
+        "android_client_info": {
+          "package_name": "com.example.bancosemillas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177828178454-3mulkaqp38dbm2vkepv9ev17oasihnp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLDcU5w8cWKCBLwAKjfuBbW0PTThkKQhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177828178454-3mulkaqp38dbm2vkepv9ev17oasihnp2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "177828178454-afhnemkhk3j7oc9n6s2n2ntr890nrv80.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bancoSemillas"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

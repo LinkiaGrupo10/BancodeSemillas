@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nubes_fondo"
+    tools:context=".FragmentosAdministrador.Semillas.AgregarSemilla">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:text="Añadir Semilla"
+            android:gravity="center"
+            android:background="#E6F0FA"
+            android:textStyle="bold"/>
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ImagenAgregarSemilla"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/image_ico"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/NombreCientificoSemilla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formacampos"
+                android:drawableStart="@drawable/icono_semilla"
+                android:drawablePadding="10dp"
+                android:hint="@string/NombreCientificoSemilla"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="15dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="@string/NombreVulgarSemilla"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/NombreVulgarSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="@string/VariedadSemilla"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/VariedadSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="number"
+                android:hint="Número Identificación"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/idSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="Procedencia"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/ProcedenciaSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="number"
+                android:hint="Gramos Mínimos"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/GramosMinimosSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="Viabilidad"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/ViabilidadSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="Mes de Reparto"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/MesRepartoSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="Mes de Devolución"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/MesRecogidaSemilla"
+                android:focusable="false"
+                android:onClick="showDatePickerDialog" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="Manejo"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/ManejoSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="Como Consumir"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/ComoConsumirSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="Descripción"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/DescripcionSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="Otros Datos"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/OtrosDatosSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:background="@drawable/formacampos"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:inputType="textPersonName|textCapWords"
+                android:hint="Disponibilidad"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icono_semilla"
+                android:id="@+id/DisponibilidaddSemilla"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+
+            android:id="@+id/AgregarSemilla"
+            android:background="@drawable/formabotones"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:text="Registrar"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginStart="115dp"
+            android:textStyle="bold"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
+
